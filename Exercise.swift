@@ -50,7 +50,7 @@ struct Regimen {
   }
 }
 }
-//
+//instence
 var mondayRegimen = Regimen(dayOfWeek: "Monday"
 ,exercises: [pushUp])
 

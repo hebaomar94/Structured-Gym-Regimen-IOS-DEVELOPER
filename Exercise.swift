@@ -42,6 +42,7 @@ struct Regimen {
     self.exercises = exercises
   }
   //Forming an Exercise Plan
+  //method
  func printExercisePlan() {
   print("Today is \(self.dayOfWeek) and you're going to:")
   for exercise in self.exercises {
@@ -50,7 +51,7 @@ struct Regimen {
   }
 }
 }
-//instence
+//instance
 var mondayRegimen = Regimen(dayOfWeek: "Monday"
 ,exercises: [pushUp])
 
